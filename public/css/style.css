@@ -1,0 +1,143 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+/* Navbar */
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+.fa-compass{
+    color : #fe424d;
+    font-size: 30px;
+}
+.nav-link{
+    color : black !important;
+    opacity: 0.9;
+}
+
+/* Footer */
+.f-info{
+    height: 8rem;
+    background-color: #ebebebeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.f-info-socials,
+.f-info-brand,
+.f-info-links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials{
+    text-align: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.f-info-socials i:hover{
+    cursor: pointer;
+}
+.f-info-brand{
+    text-align: center;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+
+/* Card */
+.listing-card{
+    border:none !important;
+    margin-bottom: 1rem;
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text p{
+    font-weight: 400;
+}
+.listing-link{
+    text-decoration: none !important;
+}
+
+/* card-effect */
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    
+}
+/* New page */
+.add-btn{
+    background-color:#fe424d !important;
+    border: none !important;
+}
+/* Edit Page */
+.edit-btn{
+    background-color:#fe424d !important;
+    border: none !important;
+}
+/* Show page */
+.show-image{
+    height: 35vh;
+}
+.btns{
+    display: flex;
+}
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Map */
+#map { 
+    height: 300px;
+    width: 80vh;
+}
+.marker {
+    background-image: url('https://res.cloudinary.com/dngdysdqd/image/upload/v1711435229/icon2_fz74vi.jpg');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.marker:hover{
+    background-image: url('https://res.cloudinary.com/dngdysdqd/image/upload/c_crop,w_300,h_300/v1711435264/icon1_ogafi3.jpg');
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+  .mapboxgl-popup {
+    max-width: 200px;
+  }
+
+  .mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
